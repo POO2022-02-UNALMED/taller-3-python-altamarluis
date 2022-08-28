@@ -1,8 +1,8 @@
 from televisores.tv import TV
 
 class Control:
-    def __init__(self, tv):
-        self._tv = tv
+    def __init__(self):
+        pass
 
     def enlazar(self, televisor):
         self._tv = televisor
